@@ -32,7 +32,7 @@ OpenWrt HAProxy的Luci配置页面，已在[该固件][A]中使用
 tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
 cd OpenWrt-SDK-ar71xx-*
 # Clone 项目
-git clone https://github.com/AlexZhuo/luci-app-haproxy-tcp package/luci-app-haproxy-tcp
+git clone https://github.com/jiangyf70/luci-app-haproxy-tcp package/luci-app-haproxy-tcp
 # 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/luci-app-haproxy-tcp/tools/po2lmo
 make && sudo make install
