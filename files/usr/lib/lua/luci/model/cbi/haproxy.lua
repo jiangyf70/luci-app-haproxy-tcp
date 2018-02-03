@@ -45,7 +45,7 @@ s=m:section(TypedSection,"main_server","<b>" .. translate("Main Server List") ..
 	o=s:option(Flag,"validate",translate("validate"))
 
 	o=s:option(Value,"server_ip",translate("Proxy Server IP"))
-	o.datatype="ip4addr"
+--o.datatype="ip4addr"
 	o=s:option(Value,"server_port",translate("Proxy Server Port"))
 	o.datatype="uinteger"
 	o=s:option(Value,"server_weight",translate("Weight"))
